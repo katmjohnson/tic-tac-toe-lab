@@ -1,0 +1,36 @@
+#board{
+    padding: 3em;
+    text-align: center;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+.row{
+    margin: 0 auto;
+    width: 302px;
+    height: 100px;
+    clear: both;
+}
+.top{
+    border-top: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+}
+.bottom{
+    border-top: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+}
+.left{
+    border-right: 1px solid darkblue;
+    border-left: 1px solid darkblue;
+}
+.right{
+    border-right: 1px solid darkblue;
+    border-left: 1px solid darkblue;
+}
+.pointer:hover{
+    cursor: pointer;
+}
